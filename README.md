@@ -4,8 +4,7 @@
 
 One Python script, three API workflows. Call a chat model, create an image, or submit a video generation task through [ToAPIs](https://toapis.com/?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_intro). No third-party Python packages are required.
 
-New to ToAPIs? [Sign up for 10 credits](https://toapis.com/?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_signup_credits) (about $0.05), then try the default 1K low-quality image example. [Check pricing and actual charges](#free-credits-billing-and-top-ups) before further calls.
-
+New to ToAPIs? [Sign up for 10 credits](https://toapis.com/?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_signup_credits)—enough to generate 26 images with the default `gpt-image-2-vip` example at 1K resolution and low quality under current pricing. [Check pricing and actual credit usage](#free-credits-billing-and-top-ups) before further calls.
 [English](README.md) · [简体中文](README_zh-CN.md)
 
 > Start with `--dry-run`: it shows the endpoint and request body without an API key or billable call. Live calls require a key and may incur charges. Model availability and prices can change; check the [current pricing page](https://toapis.com/en/pricing?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_pricing).
@@ -66,7 +65,7 @@ Image and video requests return a task ID first. The script checks its status ev
 
 ## Free credits, billing, and top-ups
 
-New accounts receive 10 credits (about $0.05) for initial testing. The default 1K, low-quality `gpt-image-2-vip` image is about $0.0019 per image; a 1K `gpt-image-2` image is about $0.015. These are estimates for the stated settings, not a promise of how many calls the remaining balance will cover. Public price displays can lag updates. Check the [current price list](https://toapis.com/en/pricing?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_billing_pricing) before changing models or settings, especially for video.
+New accounts receive 10 credits—enough to generate 26 images with `gpt-image-2-vip` at 1K resolution and low quality under current pricing. Higher quality settings or other models use different amounts of credits. The 10 signup credits do not cover this repository's Seedance video example; review pricing and top up before making a live video call. Public price displays can lag updates. Check the [current price list](https://toapis.com/en/pricing?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_billing_pricing) before changing models or settings. Actual credit usage is determined by your account's Usage Logs.
 
 After a live call, copy the task ID printed by the script. Sign in to the [Dashboard](https://toapis.com/en/dashboard/models) with the same account. Open [Task Logs](https://toapis.com/en/dashboard/tasks) to find the image or video task and its result, and use **Usage Logs** to inspect the charge or credit usage for the request. If the entry is delayed, refresh the logs and compare the account balance after it appears. The amount recorded in the account is the final charge.
 
