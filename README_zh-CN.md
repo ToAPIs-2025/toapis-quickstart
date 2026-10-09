@@ -4,8 +4,7 @@
 
 一个 Python 脚本演示三种调用方式：文本对话、图像生成和视频生成。无需安装第三方 Python 包。访问 [ToAPIs](https://toapis.com/?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_zh_intro) 获取服务。
 
-首次使用？[注册领取 10 积分](https://toapis.com/?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_zh_signup_credits)（约 $0.05），即可尝试默认的 1K、low 图像示例。继续调用前，请[查看价格和实际扣费方法](#赠送积分扣费与充值)。
-
+首次使用？[注册领取 10 积分](https://toapis.com/?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_zh_signup_credits)，按当前计价可生成 26 张默认的 `gpt-image-2-vip` 图片（1K 分辨率、low 质量）。继续调用前，请[查看价格和实际积分消耗](#赠送积分扣费与充值)。
 [English](README.md) · [简体中文](README_zh-CN.md)
 
 > 建议先运行 `--dry-run`：只显示请求地址和参数，不需要 API Key，也不会产生调用费用。正式调用可能产生费用；模型和价格以[当前定价页](https://toapis.com/en/pricing?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_zh_pricing)为准。
@@ -67,7 +66,7 @@ python examples/quickstart.py video --prompt "纸鹤在桌面上展开，电影�
 
 ## 赠送积分、扣费与充值
 
-新账号初次注册赠送 10 积分（约 $0.05），可用于首次测试。默认的 `gpt-image-2-vip` 1K、low 图像约 $0.0019/张；`gpt-image-2` 1K 图像约 $0.015/张。这是对应配置的参考费用，实际可调用次数还取决于剩余积分。公开价表可能延迟更新；切换模型、画质或测试视频前，请查看[当前价表](https://toapis.com/en/pricing?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_zh_billing_pricing)。
+新账号首次注册赠送 10 积分，按当前计价可生成 26 张 `gpt-image-2-vip` 图片（1K 分辨率、low 质量）。更高画质或其他模型的积分消耗不同。10 积分不足以完成本仓库的 Seedance 视频示例；正式调用视频前，请先核对价格并充值。公开价表可能延迟更新；切换模型或参数前，请查看[当前价表](https://toapis.com/en/pricing?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_zh_billing_pricing)。
 
 正式调用后，记下脚本打印的任务 ID，使用同一账号进入 [Dashboard](https://toapis.com/en/dashboard/models)。在 [Task Logs（任务日志）](https://toapis.com/en/dashboard/tasks)查找图像或视频任务及结果，再到 **Usage Logs（用量日志）**查看该次请求的扣费或积分消耗。如果记录尚未出现，稍后刷新日志，并在记录更新后核对余额。以账户记录的实际扣费为准。
 
