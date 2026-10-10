@@ -4,7 +4,8 @@
 
 One Python script, three API workflows. Call a chat model, create an image, or submit a video generation task through [ToAPIs](https://toapis.com/?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_intro). No third-party Python packages are required.
 
-New to ToAPIs? [Sign up for 10 credits](https://toapis.com/?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_signup_credits)—enough to generate 26 images with the default `gpt-image-2-vip` example at 1K resolution and low quality under current pricing. [Check pricing and actual credit usage](#free-credits-billing-and-top-ups) before further calls.
+Built for developers connecting models to applications and recurring workflows. Start with one verified request, inspect actual usage, then plan your production integration. [High-volume integration enquiries](mailto:support@toapis.com?subject=Production%20API%20integration) should include your models, estimated monthly usage, peak concurrency, and launch timeline.
+
 [English](README.md) · [简体中文](README_zh-CN.md)
 
 > Start with `--dry-run`: it shows the endpoint and request body without an API key or billable call. Live calls require a key and may incur charges. Model availability and prices can change; check the [current pricing page](https://toapis.com/en/pricing?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_pricing).
@@ -62,6 +63,14 @@ The image command defaults to `gpt-image-2-vip` at 1K and `low` quality. To try 
 The video command uses `seedance-2` with a 4-second duration, 720p resolution, 16:9 aspect ratio, and `generate_audio=false`. [Review Seedance 2 parameters and pricing](https://toapis.com/en/model-guide/seedance-2) before making a live video call.
 
 Image and video requests return a task ID first. The script checks its status every 8 seconds, for up to 15 minutes, and prints the result URL when complete. Generated links may expire; save output you need promptly. Use `--interval` and `--max-wait` to change polling. If your terminal times out after submission, keep the printed task ID and query the [image task](https://docs.toapis.com/docs/en/api-reference/tasks/image-status) or [video task](https://docs.toapis.com/docs/en/api-reference/tasks/video-status) endpoint directly.
+
+## Before sustained or batch usage
+
+This is a single-request quickstart, not a batch runner. For production use, add bounded concurrency, persistent task IDs, result storage, and a workload budget in your application. Check account limits and model-specific parameters before increasing volume. After an interrupted generation request, inspect the existing task before resubmitting to avoid duplicate work and charges.
+
+For integration planning, [request 1:1 support](mailto:support@toapis.com?subject=Production%20API%20integration) with your use case, models, estimated monthly usage, peak concurrency, and launch timeline. Capacity and dedicated support scope are assessed for the project.
+
+For API troubleshooting, send the endpoint, model, HTTP status, task/request ID, and redacted reproduction. Use repository Issues for example-code defects; contact support privately for account and billing questions. Never share API keys.
 
 ## Free credits, billing, and top-ups
 
