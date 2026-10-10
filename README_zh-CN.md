@@ -4,7 +4,8 @@
 
 一个 Python 脚本演示三种调用方式：文本对话、图像生成和视频生成。无需安装第三方 Python 包。访问 [ToAPIs](https://toapis.com/?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_zh_intro) 获取服务。
 
-首次使用？[注册领取 10 积分](https://toapis.com/?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_zh_signup_credits)，按当前计价可生成 26 张默认的 `gpt-image-2-vip` 图片（1K 分辨率、low 质量）。继续调用前，请[查看价格和实际积分消耗](#赠送积分扣费与充值)。
+面向将模型接入应用与持续生产流程的开发者。先验证一次调用并核对实际用量，再规划生产接入。[高用量接入咨询](mailto:support@toapis.com?subject=Production%20API%20integration)请提供所需模型、预计月用量、峰值并发和上线时间。
+
 [English](README.md) · [简体中文](README_zh-CN.md)
 
 > 建议先运行 `--dry-run`：只显示请求地址和参数，不需要 API Key，也不会产生调用费用。正式调用可能产生费用；模型和价格以[当前定价页](https://toapis.com/en/pricing?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_zh_pricing)为准。
@@ -63,6 +64,14 @@ python examples/quickstart.py video --prompt "纸鹤在桌面上展开，电影�
 视频命令使用 `seedance-2`，时长 4 秒、分辨率 720p、画幅 16:9，并设置 `generate_audio=false`。正式调用前请查看 [Seedance 2 参数与计费说明](https://toapis.com/en/model-guide/seedance-2)。
 
 图像和视频先返回任务 ID，脚本随后每 8 秒查询一次，最多等待 15 分钟。完成后会输出结果链接。生成链接可能过期，需要使用时请及时保存。可用 `--interval` 和 `--max-wait` 修改查询间隔与等待时长。如果终端在任务提交后中断，可用已打印的任务 ID 查询[图像任务](https://docs.toapis.com/docs/en/api-reference/tasks/image-status)或[视频任务](https://docs.toapis.com/docs/en/api-reference/tasks/video-status)状态。
+
+## 持续调用与批量生产前的准备
+
+本仓库是单次调用的快速接入示例，暂不提供批量调度。生产使用时，请在业务系统中加入并发控制、任务 ID 持久化、结果保存和业务预算。扩大用量前，核对账户限制及模型参数；生成请求中断后先查询原任务，避免重复提交与重复消耗。
+
+有持续用量、业务迁移或企业上线需求，可[申请 1V1 接入支持](mailto:support@toapis.com?subject=Production%20API%20integration)，提供场景、模型、预计月用量、峰值并发和上线时间。容量与专属支持范围按项目评估。
+
+API 排错请提供接口、模型、HTTP 状态、任务或请求 ID 及脱敏复现信息。示例代码缺陷可提交 Issue；账户和账单问题请私下联系支持，不要提供 API Key。
 
 ## 赠送积分、扣费与充值
 
