@@ -1,7 +1,5 @@
 # ToAPIs Quickstart: text, image, and video in Python
 
-**New, tested 2026-10-12:** [Product image → reference scene edit, with real outputs and a TongFlow plugin smoke test](tutorials/product-image-starter/README.md).
-
 <img src="assets/toapis-logo.png" alt="ToAPIs logo" width="72">
 
 One Python script, three API workflows. Call a chat model, create an image, or submit a video generation task through [ToAPIs](https://toapis.com/?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_intro). No third-party Python packages are required.
