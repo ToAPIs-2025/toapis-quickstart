@@ -1,5 +1,7 @@
 # ToAPIs 快速开始：用 Python 调用文本、图像和视频模型
 
+**2026-10-12 新实测：**[商品图→参考图改场景，含真实输出与 TongFlow 插件文生图测试](tutorials/product-image-starter/README_zh-CN.md)。
+
 <img src="assets/toapis-logo.png" alt="ToAPIs 标识" width="72">
 
 一个 Python 脚本演示三种调用方式：文本对话、图像生成和视频生成。无需安装第三方 Python 包。访问 [ToAPIs](https://toapis.com/?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_zh_intro) 获取服务。
