@@ -1,0 +1,35 @@
+{
+  "upstream": "jau123/MeiGen-AI-Design-MCP",
+  "upstreamSha": "33ecb583c541652574c5875963d1225fa4ecf751",
+  "checkedDate": "2026-10-12 Asia/Shanghai",
+  "method": "real MCP generate_image -> patched upstream OpenAIProvider -> ToAPIs async -> local image",
+  "request": {
+    "provider": "openai",
+    "model": "gpt-image-2",
+    "prompt": "Create an elegant ecommerce product poster for an unbranded matte orange insulated tumbler. Centered hero product on a black stone podium, warm orange rim light, deep charcoal studio background, controlled condensation, premium commercial photography, generous negative space in the upper third for a headline added later. No text, no logos, no watermarks.",
+    "aspectRatio": "3:4",
+    "resolution": "1K",
+    "wait": true,
+    "download": true
+  },
+  "taskId": "tsk_img_01M4QGT5PKF27KQ2B1GGTFSS57",
+  "status": "completed",
+  "elapsedSeconds": 50.91,
+  "pixels": [
+    896,
+    1184
+  ],
+  "sha256": "198b8cc523cb32b60d85286b7f757979dbac95b2fa346cd8924600a0d45b0c02",
+  "listedPriceSnapshot": {
+    "date": "2026-10-10",
+    "model": "gpt-image-2",
+    "resolution": "1K",
+    "USDPerImage": 0.015
+  },
+  "actualCharge": null,
+  "limitations": [
+    "One success is not a reliability benchmark.",
+    "Text-to-image only; no reference upload, ToAPIs video or MeiGen Cloud skills integration.",
+    "MCP request selects provider=openai as an existing BYOK entry; its ToAPIs branch handles async tasks."
+  ]
+}

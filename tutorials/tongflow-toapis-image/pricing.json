@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-12T17:35:51.320130+08:00",
+  "source": "GET https://toapis.cn/v1/pricing?model=gpt-image-2",
+  "currency": "USD",
+  "data": [
+    {
+      "id": "gpt-image-2",
+      "prices": [
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "n": 1,
+            "resolution": "1K"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.015"
+        },
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "n": 1,
+            "resolution": "4K"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.025"
+        },
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "n": 1,
+            "resolution": "2K"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.02"
+        }
+      ],
+      "type": "image"
+    }
+  ],
+  "note": "Quote only. Actual charges for the historical tests were not independently verified."
+}

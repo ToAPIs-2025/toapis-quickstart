@@ -1,0 +1,141 @@
+--- a/src/lib/providers/openai.ts
++++ b/src/lib/providers/openai.ts
+@@ -8,6 +8,7 @@
+ 
+ import { withHttpResponse, boundedJson, boundedBytes, responseError } from '../generation-http.js'
+ import type { ImageProvider, ImageGenerationRequest, ImageGenerationResult } from './types.js'
++import { isToAPIsBase, generateToAPIs } from './toapis.js'
+ 
+ interface OpenAIImageResponse {
+   data: Array<{
+@@ -31,6 +32,7 @@
+ 
+   async generate(request: ImageGenerationRequest): Promise<ImageGenerationResult> {
+     const model = request.model || this.defaultModel
++    if (isToAPIsBase(this.baseUrl)) return generateToAPIs(this.apiKey, this.baseUrl, model, request)
+ 
+     const body: Record<string, unknown> = {
+       model,
+--- a/src/lib/providers/types.ts
++++ b/src/lib/providers/types.ts
+@@ -10,6 +10,7 @@
+   model?: string
+   size?: string          // "1024x1024", "1536x1024", "auto"
+   aspectRatio?: string   // "1:1", "16:9" etc.
++  resolution?: string   // ToAPIs resolution tier: 1K / 2K / 4K
+   quality?: string
+   n?: number
+   referenceImages?: string[]  // Public image URLs for style/content guidance
+--- a/src/tools/generate-image.ts
++++ b/src/tools/generate-image.ts
+@@ -12,6 +12,7 @@
+ import { getDefaultProvider, getAvailableProviders } from '../config.js'
+ import type { MeiGenApiClient } from '../lib/meigen-api.js'
+ import { OpenAIProvider } from '../lib/providers/openai.js'
++import { isToAPIsBase } from '../lib/providers/toapis.js'
+ import { classifyError } from '../lib/generation-shared.js'
+ import { saveImageLocally } from '../lib/save-image.js'
+ import { addRecentGeneration } from '../lib/preferences.js'
+@@ -88,8 +89,10 @@
+         }
+         // These synchronous providers have no MeiGen job identity; reject unsupported orchestration before upload/API I/O.
+         if (!wait || requestId) throw new GenerationError('requestId and wait=false are supported only by provider=meigen. This provider has no resumable MeiGen generation ID.', 'unsupported_execution_mode')
+-        const resolvedRefs = await uploadReferences(await fingerprintReferences(referenceImages ?? [], extra.signal), config, extra.signal)
+-        return await generateWithOpenAI(config, prompt, model, size, quality, resolvedRefs, download, extra.signal)
++        const toapis = isToAPIsBase(config.openaiBaseUrl)
++        if (toapis && referenceImages?.length) throw new GenerationError('This ToAPIs preview supports text-to-image only. Reference images are not uploaded.', 'unsupported_reference_images')
++        const resolvedRefs = toapis ? [] : await uploadReferences(await fingerprintReferences(referenceImages ?? [], extra.signal), config, extra.signal)
++        return await generateWithOpenAI(config, prompt, model, size, quality, resolvedRefs, download, extra.signal, aspectRatio, resolution)
+       } catch (error) {
+         const result = errorOutput(error, { provider: providerType })
+         if (result.error) result.error.message += ` ${classifyError(result.error.message, providerType)}`
+@@ -113,13 +116,15 @@
+   referenceImages?: string[],
+   download = true,
+   signal?: AbortSignal,
++  aspectRatio?: string,
++  resolution?: string,
+ ) {
+   const provider = new OpenAIProvider(config.openaiApiKey!, config.openaiBaseUrl, config.openaiModel)
+-  const result = await provider.generate({ prompt, model, size, quality, referenceImages, signal, download })
++  const result = await provider.generate({ prompt, model, size, quality, referenceImages, signal, download, aspectRatio, resolution })
+ 
+   const savedPath = download ? saveImageLocally(result.imageBase64, result.mimeType) : undefined
+ 
+-  addRecentGeneration({ prompt, provider: 'openai', model: model || config.openaiModel })
++  if (!isToAPIsBase(config.openaiBaseUrl)) addRecentGeneration({ prompt, provider: 'openai', model: model || config.openaiModel })
+ 
+   const response = generationResult({ success: true, status: 'completed', provider: 'openai', mediaType: 'image', modelId: model || config.openaiModel, urls: result.imageUrl ? [result.imageUrl] : [], ...(result.imageUrl ? { imageUrl: result.imageUrl } : {}), ...(savedPath ? { savedPath } : {}) })
+   return { ...response, ...(!savedPath && result.imageBase64 ? { content: [...response.content, { type: 'image' as const, data: result.imageBase64, mimeType: result.mimeType }] } : {}) }
+--- /dev/null
++++ b/src/lib/providers/toapis.ts
+@@ -0,0 +1,69 @@
++/** Minimal ToAPIs text-to-image adapter. No MeiGen Cloud requests or credits. */
++import { abortableDelay, withHttpResponse, boundedJson, boundedBytes, responseError } from '../generation-http.js'
++import type { ImageGenerationRequest, ImageGenerationResult } from './types.js'
++
++export function isToAPIsBase(base: string): boolean {
++  try { const url = new URL(base); return url.protocol === 'https:' && ['toapis.com', 'toapis.cn'].includes(url.hostname) } catch { return false }
++}
++
++export async function generateToAPIs(key: string, base: string, model: string, request: ImageGenerationRequest): Promise<ImageGenerationResult> {
++  if (!isToAPIsBase(base)) throw new Error('Use the HTTPS ToAPIs origin or /v1 base URL.')
++  if (model !== 'gpt-image-2') throw new Error('This initial adapter supports gpt-image-2 only; other models need separate validation.')
++  if (request.referenceImages?.length) throw new Error('Reference images are not supported in this first text-to-image adapter.')
++  if (request.n && request.n !== 1) throw new Error('This adapter generates one image per call.')
++  const origin = new URL(base)
++  if (!['/', '/v1', '/v1/'].includes(origin.pathname) || origin.search || origin.hash || origin.username || origin.password) throw new Error('Base URL must be the ToAPIs origin or /v1.')
++  const endpoint = `${origin.origin}/v1/images/generations`
++  const ratios: Record<string, string> = { '1024x1024': '1:1', '1536x1024': '3:2', '1024x1536': '2:3', auto: '1:1' }
++  const size = request.aspectRatio || ratios[request.size || '1024x1024'] || request.size
++  if (!size || !/^\d+:\d+$/.test(size)) throw new Error('Use aspectRatio such as 1:1 or 16:9, or a supported pixel size.')
++  const resolution = (request.resolution || '1k').toLowerCase()
++  if (!['1k', '2k', '4k'].includes(resolution)) throw new Error('Resolution must be 1K, 2K, or 4K.')
++  const body = { model, prompt: request.prompt, size, resolution, n: 1, response_format: 'url' }
++  const headers = { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' }
++  // Never retry a POST: a network timeout may happen after the task was accepted.
++  const submitted = await withHttpResponse(endpoint, { method: 'POST', headers, body: JSON.stringify(body), redirect: 'error' }, 60_000, async (response, signal) => {
++    const json = await boundedJson(response, undefined, signal)
++    if (!response.ok) throw responseError(response, json)
++    return json
++  }, request.signal)
++  const id = submitted.id || submitted.task_id
++  if (typeof id !== 'string' || !id) throw new Error('No task ID returned. Check ToAPIs tasks before submitting again.')
++  console.error('TOAPIS_TASK ' + JSON.stringify({ taskId: id, model, status: 'submitted', request: body }))
++  const deadline = Date.now() + 600_000
++  try {
++    while (Date.now() < deadline) {
++      const observation = await withHttpResponse(`${endpoint}/${encodeURIComponent(id)}`, { headers, redirect: 'error' }, Math.min(30_000, deadline - Date.now()), async (response, signal) => {
++        const json = await boundedJson(response, undefined, signal)
++        if ([429, 503].includes(response.status)) {
++          const raw = response.headers.get('retry-after')
++          const delay = raw ? (/^\d+$/.test(raw) ? Number(raw) * 1000 : Date.parse(raw) - Date.now()) : 8000
++          return { retryMs: Number.isFinite(delay) ? Math.max(8000, delay) : 8000, json: undefined }
++        }
++        if (!response.ok) throw responseError(response, json)
++        return { retryMs: 0, json }
++      }, request.signal)
++      if (observation.retryMs) { await abortableDelay(Math.min(observation.retryMs, Math.max(0, deadline - Date.now())), request.signal); continue }
++      const task = observation.json!
++      if (task.status === 'completed') {
++        const result = task.result as { data?: Array<{ url?: string }> } | undefined
++        const url = result?.data?.[0]?.url
++        if (!url || new URL(url).protocol !== 'https:') throw new Error('Completed task has no HTTPS image result.')
++        console.error('TOAPIS_TASK ' + JSON.stringify({ taskId: id, model, status: 'completed', usage: task.usage ?? null, cost: task.cost ?? null }))
++        if (request.download === false) return { imageBase64: '', mimeType: 'image/png', imageUrl: url }
++        // Asset download carries no API key.
++        return await withHttpResponse(url, { redirect: 'error' }, 60_000, async (response, signal) => {
++          if (!response.ok) throw new Error(`Image download failed (${response.status})`)
++          const mimeType = response.headers.get('content-type')?.split(';')[0] || ''
++          if (!mimeType.startsWith('image/')) throw new Error('Result is not an image.')
++          return { imageBase64: (await boundedBytes(response, 64 * 1024 * 1024, signal)).toString('base64'), mimeType, imageUrl: url }
++        }, request.signal)
++      }
++      if (['failed', 'cancelled', 'canceled', 'error'].includes(String(task.status))) throw new Error(`Generation ended with status ${task.status}`)
++      await abortableDelay(Math.min(8000, Math.max(0, deadline - Date.now())), request.signal)
++    }
++    throw new Error('Observation timed out; the task may still be running.')
++  } catch (error) {
++    throw new Error(`${error instanceof Error ? error.message : 'Task observation failed'} ToAPIs task ID: ${id}. Query this task before generating again.`)
++  }
++}

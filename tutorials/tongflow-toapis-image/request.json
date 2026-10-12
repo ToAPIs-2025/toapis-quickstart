@@ -1,0 +1,9 @@
+{
+  "nodeSlot": "image-gen",
+  "model": "gpt-image-2",
+  "prompt": {
+    "text": "Commercial product photography of one unbranded matte orange insulated cup, with a black lid and a clean cylindrical silhouette, standing on a warm pale stone plinth. Soft morning light from the left, natural contact shadow, minimal cream background, accurate product geometry, no text, no logo, no additional products. Center the full cup in a square composition.",
+    "width": 1024,
+    "height": 1024
+  }
+}

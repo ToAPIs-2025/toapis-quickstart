@@ -10,6 +10,10 @@
 
 > 建议先运行 `--dry-run`：只显示请求地址和参数，不需要 API Key，也不会产生调用费用。正式调用可能产生费用；模型和价格以[当前定价页](https://toapis.com/en/pricing?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_zh_pricing)为准。
 
+## 项目图片实测教程
+
+10 月 12 日实测：[MeiGen 本地 MCP 社区适配](tutorials/meigen-toapis-image/README_zh-CN.md) 与 [TongFlow 插件文生图 CLI](tutorials/tongflow-toapis-image/README_zh-CN.md)。两份教程附真实 PNG、固定版本、复现步骤和带日期报价。
+
 ## 示例范围
 
 | 场景 | 本示例使用的模型 | 返回方式 |

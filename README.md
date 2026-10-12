@@ -10,6 +10,10 @@ Built for developers connecting models to applications and recurring workflows. 
 
 > Start with `--dry-run`: it shows the endpoint and request body without an API key or billable call. Live calls require a key and may incur charges. Model availability and prices can change; check the [current pricing page](https://toapis.com/en/pricing?utm_source=github&utm_medium=organic_repo&utm_campaign=gh_quickstart&utm_content=readme_pricing).
 
+## Project image tutorials
+
+Tested on Oct 12: [MeiGen local MCP with a community patch](tutorials/meigen-toapis-image/README.md) and [TongFlow plugin image-gen CLI](tutorials/tongflow-toapis-image/README.md). Each guide includes a real PNG, pinned version, reproduction steps and dated pricing.
+
 ## What this example covers
 
 | Workflow | Model used in this example | API behavior |
