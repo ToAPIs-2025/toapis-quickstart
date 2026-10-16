@@ -114,3 +114,8 @@ python -m unittest discover -s tests
 The automated tests check request shapes and do not make paid calls. Manual live smoke checks completed on 2026-10-09 for the default chat, image, and video workflows. Issues and pull requests that keep the examples aligned with the [official docs](https://docs.toapis.com/docs/en/quickstart) are welcome.
 
 Documentation checked: 2026-10-09. License: [MIT](LICENSE).
+
+
+## Image and video asset examples
+
+[Browse 10 real API asset tutorials and cost notes](tutorials/media-examples-2026-10-16/README.md)
