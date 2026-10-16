@@ -20,3 +20,6 @@
 | [varg SDK](https://github.com/ToAPIs-2025/lower-cost-varg-sdk-toapis) | 用代码调用模型，再把素材编成视频 | 3 images + 1 video |
 
 These are original API asset examples, not upstream-branded forks or official endorsements. Each repository includes bilingual instructions, exact tested presets, original outputs and task evidence.
+
+
+[模型类型、更新视频与费用总览](../model-costs-2026-10-16/README_zh-CN.md)

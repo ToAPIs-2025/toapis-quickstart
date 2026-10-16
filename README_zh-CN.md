@@ -102,3 +102,8 @@ API 排错请提供接口、模型、HTTP 状态、任务或请求 ID 及脱敏�
 ## 图片与视频素材案例
 
 [浏览10个真实API素材教程与费用说明](tutorials/media-examples-2026-10-16/README_zh-CN.md)
+
+
+## 图片与视频模型费用索引
+
+[查看25个教程的对应模型与案例花费](tutorials/model-costs-2026-10-16/README_zh-CN.md)

@@ -20,3 +20,6 @@ Confirmed charges for the tested presets: gpt-image-2(VIP) low/1K $0.0019/image;
 | [varg SDK](https://github.com/ToAPIs-2025/lower-cost-varg-sdk-toapis) | Generate media and compose videos in code | 3 images + 1 video |
 
 These are original API asset examples, not upstream-branded forks or official endorsements. Each repository includes bilingual instructions, exact tested presets, original outputs and task evidence.
+
+
+[Model types, additional videos and cost overview](../model-costs-2026-10-16/README.md)

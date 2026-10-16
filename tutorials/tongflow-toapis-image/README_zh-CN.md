@@ -14,6 +14,16 @@
 原插件文生图CLI已验证；新增视频以真实SDK处理器加明确参数/任务传输包装层验证，画布未验收。
 
 [视频补测、参数、费用与复用](video_extra/README_zh-CN.md)
+<!-- TOAPIS-VIDEO-PREVIEWS-20261016 -->
+### Seedance 视频演示与本条消费
+
+[![TongFlow · Seedance 2 Mini](video_extra/previews/seedance-2-mini.jpg)](https://raw.githubusercontent.com/ToAPIs-2025/toapis-quickstart/main/tutorials/tongflow-toapis-image/video_extra/clips/seedance-2-mini.mp4)
+
+**Seedance 2 Mini** · 480p · 4.04s · **$0.127484/clip** · 约 $0.031555/s
+
+API结算金额；新三条后台表单待交叉核对。美元/秒为本条配置折算。
+
+<!-- /TOAPIS-VIDEO-PREVIEWS-20261016 -->
 <!-- /TOAPIS-MODEL-COST-UPDATE-20261016 -->
 
 [English](README.md) · [同款模型](https://go.toapis.com/1012_tongflow_gh_cn) · [原插件](https://github.com/tong-io/tongflow-router-toapis)

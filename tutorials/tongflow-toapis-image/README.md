@@ -14,6 +14,16 @@ Historical image charges remain unverified; quotes are not billed amounts.
 Original image CLI validated; the video addition tests the real SDK handler with an explicit-parameter/durable-transport wrapper, not canvas acceptance.
 
 [Video additions, parameters, costs and reuse](video_extra/README.md)
+<!-- TOAPIS-VIDEO-PREVIEWS-20261016 -->
+### Seedance video demos and clip costs
+
+[![TongFlow · Seedance 2 Mini](video_extra/previews/seedance-2-mini.jpg)](https://raw.githubusercontent.com/ToAPIs-2025/toapis-quickstart/main/tutorials/tongflow-toapis-image/video_extra/clips/seedance-2-mini.mp4)
+
+**Seedance 2 Mini** · 480p · 4.04s · **$0.127484/clip** · about $0.031555/s
+
+API-settled amounts; the new tasks await billing-sheet cross-check. USD/s is specific to these clips.
+
+<!-- /TOAPIS-VIDEO-PREVIEWS-20261016 -->
 <!-- /TOAPIS-MODEL-COST-UPDATE-20261016 -->
 
 [简体中文](README_zh-CN.md) · [Model and pricing](https://go.toapis.com/1012_tongflow_gh_en) · [Original plugin](https://github.com/tong-io/tongflow-router-toapis)
@@ -70,6 +80,6 @@ Reuse this as a plugin invocation, setup check and evidence template. A canvas t
 
 Bearer authentication; POST `/v1/images/generations`, then GET `/v1/images/generations/{id}`. On completion the plugin downloads the image and serializes a TongFlow Asset. Keep the original task ID after interruption and query it before submitting another job. For 401 check the private key, and for 400 check the model and parameters.
 
-Passed at this version: image-gen CLI, async task handling, PNG download and Asset serialization. Untested: canvas, editing/fusion, text, video, audio, other models and throughput. An existing plugin is not evidence of a commercial partnership.
+Passed at this version: image-gen CLI, async task handling, PNG download and Asset serialization. The original October 12 image test did not cover canvas, editing/fusion, text, video, audio or throughput. The October 16 video SDK-handler test is documented separately above; canvas and other slots remain unvalidated. An existing plugin is not evidence of a commercial partnership.
 
 [Step screenshots](screenshots/) are browser captures of authored tutorial pages with the real output; they do not show canvas UI.

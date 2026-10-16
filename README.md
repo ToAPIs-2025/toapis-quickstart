@@ -119,3 +119,8 @@ Documentation checked: 2026-10-09. License: [MIT](LICENSE).
 ## Image and video asset examples
 
 [Browse 10 real API asset tutorials and cost notes](tutorials/media-examples-2026-10-16/README.md)
+
+
+## Image/video model cost index
+
+[Browse model types and example costs for 25 tutorials](tutorials/model-costs-2026-10-16/README.md)
