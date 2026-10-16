@@ -1,0 +1,8 @@
+{
+  "model": "seedance-2-mini",
+  "image": "https://raw.githubusercontent.com/ToAPIs-2025/toapis-quickstart/main/tutorials/tongflow-toapis-image/assets/result.png",
+  "prompt": "Slow camera push toward the original product, gentle natural light changes, preserve its shape and the clean composition, no text or logos.",
+  "run_id": "my-unique-seedance-2-mini-example",
+  "output": "video_extra/results/sdk-video.mp4",
+  "local_image": "assets/result.png"
+}

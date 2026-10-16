@@ -1,5 +1,19 @@
 # MeiGen 本地 MCP 生成商品图与保存结果
 
+<!-- TOAPIS-MODEL-COST-UPDATE-20261016 -->
+## 模型类型、测试档位与花费
+
+更新：2026-10-16。下表为已验证案例的历史档位与价格；本段补充不改变下方原批次记录。
+
+| 模型（API ID） | 类型 | 测试档位 | 单次报价 | 已确认单次消费 | 数量 |
+|---|---|---|---:|---:|---:|
+| gpt-image-2 | 图片 | 1K / n=1 | $0.015/image | 未确认 | 1 |
+
+历史图片实际消费尚未确认；报价不当作实扣。
+
+补丁后的本地MCP文生图已验证；远程云端视频属于另一路线，未接入本补丁。
+<!-- /TOAPIS-MODEL-COST-UPDATE-20261016 -->
+
 [English](README.md) · [同款模型与价格](https://go.toapis.com/1012_meigen_gh_cn) · [MeiGen 上游](https://github.com/jau123/MeiGen-AI-Design-MCP)
 
 用自己的 ToAPIs Key，经 MeiGen 本地 MCP 生成商品图并保存 PNG。本教程提供固定源码版本上的社区适配补丁；上游官方 npm 包尚不包含这份补丁，不是双方合作公告。

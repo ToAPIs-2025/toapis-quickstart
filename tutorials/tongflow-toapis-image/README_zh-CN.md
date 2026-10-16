@@ -1,5 +1,21 @@
 # TongFlow ToAPIs 插件生成商品图与保存 PNG
 
+<!-- TOAPIS-MODEL-COST-UPDATE-20261016 -->
+## 模型类型、测试档位与花费
+
+更新：2026-10-16。下表为已验证案例的历史档位与价格；本段补充不改变下方原批次记录。
+
+| 模型（API ID） | 类型 | 测试档位 | 单次报价 | 已确认单次消费 | 数量 |
+|---|---|---|---:|---:|---:|
+| gpt-image-2 | 图片 | 1K / n=1 | $0.015/image | 未确认 | 1 |
+
+历史图片实际消费尚未确认；报价不当作实扣。
+
+原插件文生图CLI已验证；新增视频以真实SDK处理器加明确参数/任务传输包装层验证，画布未验收。
+
+[视频补测、参数、费用与复用](video_extra/README_zh-CN.md)
+<!-- /TOAPIS-MODEL-COST-UPDATE-20261016 -->
+
 [English](README.md) · [同款模型](https://go.toapis.com/1012_tongflow_gh_cn) · [原插件](https://github.com/tong-io/tongflow-router-toapis)
 
 使用 TongFlow 已有 ToAPIs 插件，以自己的 Key 生成商品图。本教程复现插件的文生图 CLI，未修改上游插件，不代表官方合作或整个画布产品已验收。

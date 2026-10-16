@@ -1,5 +1,21 @@
 # Generate and save a product image with the TongFlow ToAPIs plugin
 
+<!-- TOAPIS-MODEL-COST-UPDATE-20261016 -->
+## Tested model types, presets and costs
+
+Updated October 16, 2026. These are tested historical presets/prices; this addition does not relabel the original batch below.
+
+| Model (API ID) | Type | Tested preset | Unit quote | Confirmed unit charge | Count |
+|---|---|---|---:|---:|---:|
+| gpt-image-2 | Image | 1K / n=1 | $0.015/image | unverified | 1 |
+
+Historical image charges remain unverified; quotes are not billed amounts.
+
+Original image CLI validated; the video addition tests the real SDK handler with an explicit-parameter/durable-transport wrapper, not canvas acceptance.
+
+[Video additions, parameters, costs and reuse](video_extra/README.md)
+<!-- /TOAPIS-MODEL-COST-UPDATE-20261016 -->
+
 [简体中文](README_zh-CN.md) · [Model and pricing](https://go.toapis.com/1012_tongflow_gh_en) · [Original plugin](https://github.com/tong-io/tongflow-router-toapis)
 
 Use your own ToAPIs key with the existing TongFlow plugin. This reproduces an unmodified image-gen CLI route, not a validated canvas workflow or a partnership announcement.

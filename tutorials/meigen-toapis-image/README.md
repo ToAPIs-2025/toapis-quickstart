@@ -1,5 +1,19 @@
 # Product images with MeiGen local MCP and ToAPIs
 
+<!-- TOAPIS-MODEL-COST-UPDATE-20261016 -->
+## Tested model types, presets and costs
+
+Updated October 16, 2026. These are tested historical presets/prices; this addition does not relabel the original batch below.
+
+| Model (API ID) | Type | Tested preset | Unit quote | Confirmed unit charge | Count |
+|---|---|---|---:|---:|---:|
+| gpt-image-2 | Image | 1K / n=1 | $0.015/image | unverified | 1 |
+
+Historical image charges remain unverified; quotes are not billed amounts.
+
+Patched local MCP text-to-image validated; remote cloud video is a separate route and is not integrated by this patch.
+<!-- /TOAPIS-MODEL-COST-UPDATE-20261016 -->
+
 [简体中文](README_zh-CN.md) · [Model and pricing](https://go.toapis.com/1012_meigen_gh_en) · [Upstream MeiGen](https://github.com/jau123/MeiGen-AI-Design-MCP)
 
 Generate and save a product image with your own ToAPIs key through local MCP. This guide provides a small community patch at a fixed upstream commit. The official npm package does not include this patch; this is an independent integration example.
