@@ -4,7 +4,7 @@
 
 2026-10-16：10个独立开发者教程，30张真实图片、8段真实视频。原项目UI/原生接入尚未验收，所有案例保留上游署名与来源。
 
-本次配置价表：gpt-image-2(VIP) low/1K $0.0019/张；gpt-image-2.5-flare high/1K $0.0225/张；Nano Banana 2.1 1K $0.015/张；MiniMax H3 5秒/768p $0.40/条。实扣待后台核对。
+本次配置实扣：gpt-image-2(VIP) low/1K $0.0019/张；gpt-image-2.5-flare high/1K $0.0225/张；Nano Banana 2.1 1K $0.015/张；MiniMax H3 5秒/768p $0.40/条。本轮30张图片、8段视频合计实扣 $3.594。
 
 | Project | Use case | Real outputs |
 |---|---|---|

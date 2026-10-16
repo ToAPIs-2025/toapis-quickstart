@@ -4,7 +4,7 @@
 
 October 16, 2026: 10 independent developer tutorials, 30 real images and 8 real videos. Upstream UI/native integration is pending; original projects are attributed.
 
-Tested catalog rates: gpt-image-2(VIP) low/1K $0.0019/image; gpt-image-2.5-flare high/1K $0.0225/image; Nano Banana 2.1 1K $0.015/image; MiniMax H3 5s/768p $0.40/clip. Settled charges pending.
+Confirmed charges for the tested presets: gpt-image-2(VIP) low/1K $0.0019/image; gpt-image-2.5-flare high/1K $0.0225/image; Nano Banana 2.1 1K $0.015/image; MiniMax H3 5s/768p $0.40/clip. Total paid for this batch: $3.594 (30 images and 8 videos).
 
 | Project | Use case | Real outputs |
 |---|---|---|
