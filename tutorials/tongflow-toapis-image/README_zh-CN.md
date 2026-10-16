@@ -21,7 +21,7 @@
 
 **Seedance 2 Mini** · 480p · 4.04s · **$0.127484/clip** · 约 $0.031555/s
 
-API结算金额；新三条后台表单待交叉核对。美元/秒为本条配置折算。
+API结算与后台表单一致。美元/秒为本条配置折算。
 
 <!-- /TOAPIS-VIDEO-PREVIEWS-20261016 -->
 <!-- /TOAPIS-MODEL-COST-UPDATE-20261016 -->

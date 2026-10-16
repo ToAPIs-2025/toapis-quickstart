@@ -4,7 +4,7 @@
 
 更新：2026-10-16。只列各教程相关的模型、历史案例消费及验收范围。
 
-| 项目 | 模型类型 | 原案例已确认消费 | 新增成功视频/API结算 | 教程 |
+| 项目 | 模型类型 | 原案例已确认消费 | 新增成功视频/已核对消费 | 教程 |
 |---|---|---:|---|---|
 | BananaSlides | 图片＋视频 | $0.0934 | — | [GitHub](https://github.com/ToAPIs-2025/cheaper-banana-slides-toapis) |
 | Scumble | 图片 | $0.0207 | — | [GitHub](https://github.com/ToAPIs-2025/cheaper-scumble-toapis) |

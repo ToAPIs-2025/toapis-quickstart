@@ -4,7 +4,7 @@
 
 Updated October 16, 2026. Only models, historical example costs and validation scope relevant to each tutorial are listed.
 
-| Project | Model types | Confirmed original spend | Added successful video/API-settled | Tutorial |
+| Project | Model types | Confirmed original spend | Added video/confirmed charge | Tutorial |
 |---|---|---:|---|---|
 | BananaSlides | Image + video | $0.0934 | — | [GitHub](https://github.com/ToAPIs-2025/cheaper-banana-slides-toapis) |
 | Scumble | Image | $0.0207 | — | [GitHub](https://github.com/ToAPIs-2025/cheaper-scumble-toapis) |

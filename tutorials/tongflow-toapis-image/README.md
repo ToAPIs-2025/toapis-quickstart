@@ -21,7 +21,7 @@ Original image CLI validated; the video addition tests the real SDK handler with
 
 **Seedance 2 Mini** · 480p · 4.04s · **$0.127484/clip** · about $0.031555/s
 
-API-settled amounts; the new tasks await billing-sheet cross-check. USD/s is specific to these clips.
+API settlement matches the owner-confirmed charges. USD/s is specific to these clips.
 
 <!-- /TOAPIS-VIDEO-PREVIEWS-20261016 -->
 <!-- /TOAPIS-MODEL-COST-UPDATE-20261016 -->
