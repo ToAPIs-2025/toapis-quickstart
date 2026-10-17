@@ -107,3 +107,9 @@ API 排错请提供接口、模型、HTTP 状态、任务或请求 ID 及脱敏�
 ## 图片与视频模型费用索引
 
 [查看25个教程的对应模型与案例花费](tutorials/model-costs-2026-10-16/README_zh-CN.md)
+
+<!-- TOAPIS-IMAGE-SAMPLES-20261017 -->
+## 图片模型价格与输出（2026-10-17）
+
+[8 个模型、同一提示词、按消费从低到高查看原图](tutorials/image-model-samples-2026-10-17/README_zh-CN.md). gpt-image-2(VIP) low/1K $0.0019/image；各例费用来源和原生项目验收范围分别标注。
+<!-- /TOAPIS-IMAGE-SAMPLES-20261017 -->

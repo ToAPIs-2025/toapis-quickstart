@@ -1,0 +1,200 @@
+[
+  {
+    "model": "gpt-image-2-vip",
+    "display_name": "gpt-image-2(VIP)",
+    "date": "2026-10-17",
+    "request": {
+      "model": "gpt-image-2-vip",
+      "prompt": "Create a premium product advertising photograph, square composition. A matte ivory reusable water bottle with a brushed copper cap stands on a pale travertine pedestal. Exactly three small green leaves lie beside the bottle. One fresh orange cut in half sits on the right. Warm morning sunlight enters from the upper left, casting crisp botanical shadows on a terracotta backdrop. Subtle realistic condensation droplets, tactile materials, professional studio photography. On the front of the bottle print the word \"DAYLIGHT\" in clean dark green uppercase type. At the top of the composition add the short headline \"MAKE ROOM FOR LIGHT\" in elegant readable typography. Keep generous negative space, no other text, no watermark.",
+      "n": 1,
+      "size": "1:1",
+      "resolution": "1K",
+      "quality": "low"
+    },
+    "actual_dimensions": [
+      1024,
+      1024
+    ],
+    "catalog_usd_per_image": "0.0019",
+    "example_amount_usd": "0.0019",
+    "cost_source": "billing_log_not_final",
+    "binding": "unique_model_time_window_candidate_not_task_confirmed",
+    "receipt_status": "unavailable",
+    "image": "images/gpt-image-2-vip.png",
+    "sha256": "aad951976acb1fa0bae6f676d45957492c07a8d8922736d4cb59cadd4e7bf99e"
+  },
+  {
+    "model": "gpt-image-2.5-flare-vip",
+    "display_name": "gpt-image-2.5-flare-vip",
+    "date": "2026-10-17",
+    "request": {
+      "model": "gpt-image-2.5-flare-vip",
+      "prompt": "Create a premium product advertising photograph, square composition. A matte ivory reusable water bottle with a brushed copper cap stands on a pale travertine pedestal. Exactly three small green leaves lie beside the bottle. One fresh orange cut in half sits on the right. Warm morning sunlight enters from the upper left, casting crisp botanical shadows on a terracotta backdrop. Subtle realistic condensation droplets, tactile materials, professional studio photography. On the front of the bottle print the word \"DAYLIGHT\" in clean dark green uppercase type. At the top of the composition add the short headline \"MAKE ROOM FOR LIGHT\" in elegant readable typography. Keep generous negative space, no other text, no watermark.",
+      "quality": "low",
+      "size": "1024x1024",
+      "n": 1
+    },
+    "actual_dimensions": [
+      1024,
+      1024
+    ],
+    "catalog_usd_per_image": null,
+    "example_amount_usd": "0.005272",
+    "cost_source": "task_receipt_settled",
+    "binding": "exact_task_id_log_phase_not_final",
+    "receipt_status": "settled",
+    "image": "images/gpt-image-2.5-flare-vip.png",
+    "sha256": "20846d6dc61e759b089f218059b8860eaad3264ca725c1a5c5c4573ecfc5fcd7"
+  },
+  {
+    "model": "nano_banana",
+    "display_name": "nano_banana",
+    "date": "2026-10-17",
+    "request": {
+      "model": "nano_banana",
+      "prompt": "Create a premium product advertising photograph, square composition. A matte ivory reusable water bottle with a brushed copper cap stands on a pale travertine pedestal. Exactly three small green leaves lie beside the bottle. One fresh orange cut in half sits on the right. Warm morning sunlight enters from the upper left, casting crisp botanical shadows on a terracotta backdrop. Subtle realistic condensation droplets, tactile materials, professional studio photography. On the front of the bottle print the word \"DAYLIGHT\" in clean dark green uppercase type. At the top of the composition add the short headline \"MAKE ROOM FOR LIGHT\" in elegant readable typography. Keep generous negative space, no other text, no watermark.",
+      "n": 1,
+      "size": "1:1",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "actual_dimensions": [
+      1024,
+      1024
+    ],
+    "catalog_usd_per_image": "0.012",
+    "example_amount_usd": "0.012",
+    "cost_source": "billing_log_not_final",
+    "binding": "unique_model_time_window_candidate_not_task_confirmed",
+    "receipt_status": "unavailable",
+    "image": "images/nano_banana.png",
+    "sha256": "9574b607e8339ef64bf5493c341bcba4e01356a2f78c78a00841433248ff5ad3"
+  },
+  {
+    "model": "gemini-nano-banana-2.1",
+    "display_name": "gemini-nano-banana-2.1",
+    "date": "2026-10-17",
+    "request": {
+      "model": "gemini-nano-banana-2.1",
+      "prompt": "Create a premium product advertising photograph, square composition. A matte ivory reusable water bottle with a brushed copper cap stands on a pale travertine pedestal. Exactly three small green leaves lie beside the bottle. One fresh orange cut in half sits on the right. Warm morning sunlight enters from the upper left, casting crisp botanical shadows on a terracotta backdrop. Subtle realistic condensation droplets, tactile materials, professional studio photography. On the front of the bottle print the word \"DAYLIGHT\" in clean dark green uppercase type. At the top of the composition add the short headline \"MAKE ROOM FOR LIGHT\" in elegant readable typography. Keep generous negative space, no other text, no watermark.",
+      "n": 1,
+      "size": "1:1",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "actual_dimensions": [
+      1024,
+      1024
+    ],
+    "catalog_usd_per_image": "0.015",
+    "example_amount_usd": "0.015",
+    "cost_source": "billing_log_not_final",
+    "binding": "unique_model_time_window_candidate_not_task_confirmed",
+    "receipt_status": "unavailable",
+    "image": "images/gemini-nano-banana-2.1.jpg",
+    "sha256": "bf680d5ea80de6a1f50ec2cbc81dfcfb95234b27eedab1334c4b02239e011de0"
+  },
+  {
+    "model": "gpt-image-2",
+    "display_name": "gpt-image-2",
+    "date": "2026-10-17",
+    "request": {
+      "model": "gpt-image-2",
+      "prompt": "Create a premium product advertising photograph, square composition. A matte ivory reusable water bottle with a brushed copper cap stands on a pale travertine pedestal. Exactly three small green leaves lie beside the bottle. One fresh orange cut in half sits on the right. Warm morning sunlight enters from the upper left, casting crisp botanical shadows on a terracotta backdrop. Subtle realistic condensation droplets, tactile materials, professional studio photography. On the front of the bottle print the word \"DAYLIGHT\" in clean dark green uppercase type. At the top of the composition add the short headline \"MAKE ROOM FOR LIGHT\" in elegant readable typography. Keep generous negative space, no other text, no watermark.",
+      "n": 1,
+      "size": "1:1",
+      "resolution": "1K",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "actual_dimensions": [
+      1280,
+      1280
+    ],
+    "catalog_usd_per_image": "0.015",
+    "example_amount_usd": "0.015",
+    "cost_source": "billing_log_not_final",
+    "binding": "unique_model_time_window_candidate_not_task_confirmed",
+    "receipt_status": "unavailable",
+    "image": "images/gpt-image-2.png",
+    "sha256": "e6d5e9ac1a5622ad9a9630144baa7b638ea934885e429312d1fe94b2c16c9a6a"
+  },
+  {
+    "model": "qwen-image-3.0",
+    "display_name": "qwen-image-3.0",
+    "date": "2026-10-17",
+    "request": {
+      "model": "qwen-image-3.0",
+      "prompt": "Create a premium product advertising photograph, square composition. A matte ivory reusable water bottle with a brushed copper cap stands on a pale travertine pedestal. Exactly three small green leaves lie beside the bottle. One fresh orange cut in half sits on the right. Warm morning sunlight enters from the upper left, casting crisp botanical shadows on a terracotta backdrop. Subtle realistic condensation droplets, tactile materials, professional studio photography. On the front of the bottle print the word \"DAYLIGHT\" in clean dark green uppercase type. At the top of the composition add the short headline \"MAKE ROOM FOR LIGHT\" in elegant readable typography. Keep generous negative space, no other text, no watermark.",
+      "size": "1:1",
+      "n": 1,
+      "resolution": "1K"
+    },
+    "actual_dimensions": [
+      1024,
+      1024
+    ],
+    "catalog_usd_per_image": null,
+    "example_amount_usd": "0.021",
+    "cost_source": "billing_log_not_final",
+    "binding": "unique_model_time_window_candidate_not_task_confirmed",
+    "receipt_status": "unavailable",
+    "image": "images/qwen-image-3.0.png",
+    "sha256": "7f7482655758badffd7e40e268186b8eeca9f64eb276567529a2ae441577b9b1"
+  },
+  {
+    "model": "gpt-image-2.5-flare",
+    "display_name": "gpt-image-2.5-flare",
+    "date": "2026-10-17",
+    "request": {
+      "model": "gpt-image-2.5-flare",
+      "prompt": "Create a premium product advertising photograph, square composition. A matte ivory reusable water bottle with a brushed copper cap stands on a pale travertine pedestal. Exactly three small green leaves lie beside the bottle. One fresh orange cut in half sits on the right. Warm morning sunlight enters from the upper left, casting crisp botanical shadows on a terracotta backdrop. Subtle realistic condensation droplets, tactile materials, professional studio photography. On the front of the bottle print the word \"DAYLIGHT\" in clean dark green uppercase type. At the top of the composition add the short headline \"MAKE ROOM FOR LIGHT\" in elegant readable typography. Keep generous negative space, no other text, no watermark.",
+      "n": 1,
+      "size": "1:1",
+      "metadata": {
+        "resolution": "1K"
+      },
+      "quality": "high"
+    },
+    "actual_dimensions": [
+      1024,
+      1024
+    ],
+    "catalog_usd_per_image": "0.0225",
+    "example_amount_usd": "0.0225",
+    "cost_source": "billing_log_not_final",
+    "binding": "unique_model_time_window_candidate_not_task_confirmed",
+    "receipt_status": "unavailable",
+    "image": "images/gpt-image-2.5-flare.png",
+    "sha256": "6f0c8b500e6b47df18c0625c09dc05ae5d2700afbae2e5e2ae1f4ed0c8f3f67e"
+  },
+  {
+    "model": "doubao-seedream-5-0-pro",
+    "display_name": "doubao-seedream-5-0-pro",
+    "date": "2026-10-17",
+    "request": {
+      "model": "doubao-seedream-5-0-pro",
+      "prompt": "Create a premium product advertising photograph, square composition. A matte ivory reusable water bottle with a brushed copper cap stands on a pale travertine pedestal. Exactly three small green leaves lie beside the bottle. One fresh orange cut in half sits on the right. Warm morning sunlight enters from the upper left, casting crisp botanical shadows on a terracotta backdrop. Subtle realistic condensation droplets, tactile materials, professional studio photography. On the front of the bottle print the word \"DAYLIGHT\" in clean dark green uppercase type. At the top of the composition add the short headline \"MAKE ROOM FOR LIGHT\" in elegant readable typography. Keep generous negative space, no other text, no watermark.",
+      "n": 1,
+      "size": "1:1",
+      "resolution": "1K",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "actual_dimensions": [
+      2048,
+      2048
+    ],
+    "catalog_usd_per_image": "0.042857",
+    "example_amount_usd": "0.042856",
+    "cost_source": "billing_log_not_final",
+    "binding": "unique_model_time_window_candidate_not_task_confirmed",
+    "receipt_status": "unavailable",
+    "image": "images/doubao-seedream-5-0-pro.jpg",
+    "sha256": "69bb9b6f68c2c76103b23afd1a5ec03f18900055327f7180158b4cd81aad90f1"
+  }
+]

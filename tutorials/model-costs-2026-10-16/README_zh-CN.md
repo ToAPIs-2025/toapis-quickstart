@@ -35,3 +35,9 @@
 gpt-image-2(VIP), **$0.0019/image 起**；案例low/1K为$0.0019/image。新增视频的美元/秒按实际4.04秒计算；Seedance按token计费，不是固定秒价。
 
 Hyperframes是本地合成；MeiGen的本地MCP图片和远程云端视频分开看。失败或实扣不明的任务不当作免费。
+
+<!-- TOAPIS-IMAGE-SAMPLES-20261017 -->
+## 新增：图片模型按本例消费排序
+
+[2026-10-17 的 8 模型价表与真实输出](../image-model-samples-2026-10-17/README_zh-CN.md)
+<!-- /TOAPIS-IMAGE-SAMPLES-20261017 -->

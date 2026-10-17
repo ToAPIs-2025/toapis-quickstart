@@ -35,3 +35,9 @@ Updated October 16, 2026. Only models, historical example costs and validation s
 gpt-image-2(VIP), **from $0.0019/image**; low/1K examples cost $0.0019/image. Added video USD/s uses actual 4.04-second outputs; Seedance bills tokens rather than a fixed second rate.
 
 Hyperframes uses local composition. MeiGen local MCP images and remote cloud video are separate routes. Failed or unverified tasks are not assumed free.
+
+<!-- TOAPIS-IMAGE-SAMPLES-20261017 -->
+## Added: image models sorted by example amount
+
+[October 17: 8-model prices and real outputs](../image-model-samples-2026-10-17/README.md)
+<!-- /TOAPIS-IMAGE-SAMPLES-20261017 -->

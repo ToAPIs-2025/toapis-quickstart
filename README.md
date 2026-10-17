@@ -124,3 +124,9 @@ Documentation checked: 2026-10-09. License: [MIT](LICENSE).
 ## Image/video model cost index
 
 [Browse model types and example costs for 25 tutorials](tutorials/model-costs-2026-10-16/README.md)
+
+<!-- TOAPIS-IMAGE-SAMPLES-20261017 -->
+## Image model costs and outputs (2026-10-17)
+
+[8 models, one prompt: outputs ordered by example amount](tutorials/image-model-samples-2026-10-17/README.md). gpt-image-2(VIP) low/1K is $0.0019/image. Cost evidence and project validation scope are stated separately.
+<!-- /TOAPIS-IMAGE-SAMPLES-20261017 -->
