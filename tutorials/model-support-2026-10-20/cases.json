@@ -1,0 +1,1160 @@
+[
+  {
+    "model": "gpt-image-2-vip",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "gpt-image-2-vip",
+      "n": 1,
+      "size": "1:1",
+      "resolution": "1K",
+      "quality": "low"
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0,
+      "quality": "low"
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.0019",
+    "pricing_status": "available",
+    "example_amount_usd": "0.0019",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/gpt-image-2-vip.png",
+    "sha256": "aad951976acb1fa0bae6f676d45957492c07a8d8922736d4cb59cadd4e7bf99e"
+  },
+  {
+    "model": "gpt-image-2.5-flare-vip",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "gpt-image-2.5-flare-vip",
+      "quality": "low",
+      "size": "1024x1024",
+      "n": 1
+    },
+    "pricing_conditions": {
+      "resolution": "1024x1024",
+      "n": 1,
+      "input_image_count": 0,
+      "quality": "low"
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": null,
+    "pricing_status": "unavailable",
+    "example_amount_usd": "0.005272",
+    "cost_source": "task_settled",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/gpt-image-2.5-flare-vip.png",
+    "sha256": "20846d6dc61e759b089f218059b8860eaad3264ca725c1a5c5c4573ecfc5fcd7"
+  },
+  {
+    "model": "gpt-image-2.5-sunburst-vip",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "gpt-image-2.5-sunburst-vip",
+      "quality": "low",
+      "size": "1024x1024",
+      "n": 1
+    },
+    "pricing_conditions": {
+      "resolution": "1024x1024",
+      "n": 1,
+      "input_image_count": 0,
+      "quality": "low"
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": null,
+    "pricing_status": "unavailable",
+    "example_amount_usd": "0.005272",
+    "cost_source": "task_settled",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/gpt-image-2.5-sunburst-vip.png",
+    "sha256": "a936c6a411b3c160820b8236999301be648153e2f09588de6df8c48ae9d55131"
+  },
+  {
+    "model": "gemini-2.5-flash-image-preview",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "gemini-2.5-flash-image-preview",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.012",
+    "pricing_status": "available",
+    "example_amount_usd": "0.012",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/gemini-2.5-flash-image-preview.png",
+    "sha256": "5b3206f076ff05865a34227339e6ae2bdedc0a5a267d3227f05111d101c5f466"
+  },
+  {
+    "model": "nano_banana",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "nano_banana",
+      "n": 1,
+      "size": "1:1",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.012",
+    "pricing_status": "available",
+    "example_amount_usd": "0.012",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/nano_banana.png",
+    "sha256": "9574b607e8339ef64bf5493c341bcba4e01356a2f78c78a00841433248ff5ad3"
+  },
+  {
+    "model": "gemini-nano-banana-2.1",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "gemini-nano-banana-2.1",
+      "n": 1,
+      "size": "1:1",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.015",
+    "pricing_status": "available",
+    "example_amount_usd": "0.015",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/gemini-nano-banana-2.1.jpg",
+    "sha256": "bf680d5ea80de6a1f50ec2cbc81dfcfb95234b27eedab1334c4b02239e011de0"
+  },
+  {
+    "model": "gpt-image-2",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "gpt-image-2",
+      "n": 1,
+      "size": "1:1",
+      "resolution": "1K",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.015",
+    "pricing_status": "available",
+    "example_amount_usd": "0.015",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1280,
+      1280
+    ],
+    "file": "images/gpt-image-2.png",
+    "sha256": "e6d5e9ac1a5622ad9a9630144baa7b638ea934885e429312d1fe94b2c16c9a6a"
+  },
+  {
+    "model": "flux-kontext-pro",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "flux-kontext-pro",
+      "size": "1:1"
+    },
+    "pricing_conditions": {
+      "resolution": "model_default",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.02",
+    "pricing_status": "available",
+    "example_amount_usd": "0.02",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/flux-kontext-pro.png",
+    "sha256": "2b76fdc487e4a5a211e3068c1bbcf167b7fa0943108596d79616ba036df0feee"
+  },
+  {
+    "model": "gemini-nano-banana-2.1-vip",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "gemini-nano-banana-2.1-vip",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.02",
+    "pricing_status": "available",
+    "example_amount_usd": "0.02",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/gemini-nano-banana-2.1-vip.png",
+    "sha256": "5f0ae98ac973333c085293f2e6265ce25becb634fdcb031c3369c103d35a5a98"
+  },
+  {
+    "model": "qwen-image-3.0",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "qwen-image-3.0",
+      "size": "1:1",
+      "n": 1,
+      "resolution": "1K"
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": null,
+    "pricing_status": "unavailable",
+    "example_amount_usd": "0.021",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/qwen-image-3.0.png",
+    "sha256": "7f7482655758badffd7e40e268186b8eeca9f64eb276567529a2ae441577b9b1"
+  },
+  {
+    "model": "gpt-image-2.5-flare",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "gpt-image-2.5-flare",
+      "n": 1,
+      "size": "1:1",
+      "metadata": {
+        "resolution": "1K"
+      },
+      "quality": "high"
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0,
+      "quality": "high"
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.0225",
+    "pricing_status": "available",
+    "example_amount_usd": "0.0225",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/gpt-image-2.5-flare.png",
+    "sha256": "6f0c8b500e6b47df18c0625c09dc05ae5d2700afbae2e5e2ae1f4ed0c8f3f67e"
+  },
+  {
+    "model": "gpt-image-2.5-sunburst",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "gpt-image-2.5-sunburst",
+      "size": "1:1",
+      "n": 1,
+      "resolution": "1K",
+      "quality": "high"
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0,
+      "quality": "high"
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.0225",
+    "pricing_status": "available",
+    "example_amount_usd": "0.0225",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/gpt-image-2.5-sunburst.png",
+    "sha256": "2c8fa26a4b0316169d7a0c73f9df66d3a5ba40227dda20351d5f7d1780745db5"
+  },
+  {
+    "model": "flux-2-pro",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "flux-2-pro",
+      "size": "1:1",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.025",
+    "pricing_status": "available",
+    "example_amount_usd": "0.025",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1440,
+      1440
+    ],
+    "file": "images/flux-2-pro.jpg",
+    "sha256": "e6af8a1a66b92ff4ae1974eff754b80ddbeec984d2930833b8e7fd21869de116"
+  },
+  {
+    "model": "gemini-3.1-flash-image-preview",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "gemini-3.1-flash-image-preview",
+      "n": 1,
+      "size": "1:1",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.025",
+    "pricing_status": "available",
+    "example_amount_usd": "0.025",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/gemini-3.1-flash-image-preview.png",
+    "sha256": "bae209aaacf0dfc0f1ff18864bdc007453aac4786c13e19d008bafee354c4cdf"
+  },
+  {
+    "model": "qwen-image-3.0-pro",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "qwen-image-3.0-pro",
+      "size": "1:1",
+      "n": 1,
+      "resolution": "1K"
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": null,
+    "pricing_status": "unavailable",
+    "example_amount_usd": "0.028",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/qwen-image-3.0-pro.png",
+    "sha256": "463033d2ca2afd8d087c21a41916dbeb15e13fb42f57eb3bc374cc8a6cf3f7ba"
+  },
+  {
+    "model": "doubao-seedream-4-0",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "doubao-seedream-4-0",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.0285",
+    "pricing_status": "available",
+    "example_amount_usd": "0.0285",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/doubao-seedream-4-0.jpg",
+    "sha256": "fac2a6e03be40ddf5b41f9a42266d69a8da951812b5e3da1b3d5fce629bd1a23"
+  },
+  {
+    "model": "gemini-3.1-flash-image-preview-vip",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "gemini-3.1-flash-image-preview-vip",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.03",
+    "pricing_status": "available",
+    "example_amount_usd": "0.03",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/gemini-3.1-flash-image-preview-vip.png",
+    "sha256": "4cf48a092b3129cdc3acc6573a03e14704bb0939a0308136e044bceac7659580"
+  },
+  {
+    "model": "nano_banana_2",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "nano_banana_2",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.03",
+    "pricing_status": "available",
+    "example_amount_usd": "0.03",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/nano_banana_2.png",
+    "sha256": "00ad592688c973f2e2bc1cfd7eac79ef8b3b1e9758682508b98c0b5794638647"
+  },
+  {
+    "model": "viduq2-fast",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "viduq2-fast",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.030134",
+    "pricing_status": "available",
+    "example_amount_usd": "0.030134",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/viduq2-fast.png",
+    "sha256": "e2107097436b26b8a090c620b23718f493b92b49e0351ec331e363ab9b333e27"
+  },
+  {
+    "model": "doubao-seedream-5-0",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "doubao-seedream-5-0",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "2K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "2K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.0315",
+    "pricing_status": "available",
+    "example_amount_usd": "0.0315",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "file": "images/doubao-seedream-5-0.jpg",
+    "sha256": "76a7f8e3a608d8593251b2282d412a602b1b09aa17681d76c4bfa1ea875aa628"
+  },
+  {
+    "model": "doubao-seedream-4-5",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "doubao-seedream-4-5",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "2K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "2K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.0357",
+    "pricing_status": "available",
+    "example_amount_usd": "0.0357",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "file": "images/doubao-seedream-4-5.jpg",
+    "sha256": "f9ae13dd6035ebb96b284c257917560e9443ed50a5c5d6aa52fd224715543cec"
+  },
+  {
+    "model": "flux-kontext-max",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "flux-kontext-max",
+      "size": "1:1"
+    },
+    "pricing_conditions": {
+      "resolution": "model_default",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.04",
+    "pricing_status": "available",
+    "example_amount_usd": "0.04",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/flux-kontext-max.png",
+    "sha256": "0d5c05b25a3183300e86aa8ba0fe7fa75a9b252c856f88375600126d25735586"
+  },
+  {
+    "model": "gemini-3-pro-image-preview",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "gemini-3-pro-image-preview",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.04",
+    "pricing_status": "available",
+    "example_amount_usd": "0.04",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/gemini-3-pro-image-preview.jpg",
+    "sha256": "6ea35e3a67c7d6f26da76ef52909550501c6c02c91ddbaf16c13a5a63773e300"
+  },
+  {
+    "model": "doubao-seedream-5-0-pro",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "doubao-seedream-5-0-pro",
+      "n": 1,
+      "size": "1:1",
+      "resolution": "1K",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 1,
+      "quality": "medium"
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.042857",
+    "pricing_status": "available",
+    "example_amount_usd": "0.042856",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "file": "images/doubao-seedream-5-0-pro.jpg",
+    "sha256": "69bb9b6f68c2c76103b23afd1a5ec03f18900055327f7180158b4cd81aad90f1"
+  },
+  {
+    "model": "doubao-seedream-5-0-pro-global",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "doubao-seedream-5-0-pro-global",
+      "size": "1:1",
+      "n": 1,
+      "resolution": "1K"
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": null,
+    "pricing_status": "unavailable",
+    "example_amount_usd": "0.045",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "file": "images/doubao-seedream-5-0-pro-global.jpg",
+    "sha256": "3fa375ecff9aad45bb3fbcc3ab21176e015bc38160a6489df09fd5811cdc08d4"
+  },
+  {
+    "model": "gemini-3-pro-image-preview-vip",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "gemini-3-pro-image-preview-vip",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.05",
+    "pricing_status": "available",
+    "example_amount_usd": "0.05",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/gemini-3-pro-image-preview-vip.png",
+    "sha256": "4c79df3bfc96ea14bf20a395628f0e1dc96ec9d1373e636c3e1b17ffc0e48975"
+  },
+  {
+    "model": "nano_banana_pro",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "nano_banana_pro",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.05",
+    "pricing_status": "available",
+    "example_amount_usd": "0.05",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/nano_banana_pro.jpg",
+    "sha256": "4727c5699b8da6e570b6374dab53d4b9df508c22f436172c799de5ca2e444b6f"
+  },
+  {
+    "model": "viduq3-fast",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "viduq3-fast",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.050223",
+    "pricing_status": "available",
+    "example_amount_usd": "0.050222",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/viduq3-fast.png",
+    "sha256": "66c80916656be136a96455acd8f2f8ababf0715d25fc982ac30c304206a094d7"
+  },
+  {
+    "model": "vidu-image",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "vidu-image",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.066964",
+    "pricing_status": "available",
+    "example_amount_usd": "0.066964",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/vidu-image.png",
+    "sha256": "158ece4f8837bfbc2086ae418311bbb81fc9d8ded6be39f0e78660619fb34ded"
+  },
+  {
+    "model": "flux-2-flex",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "flux-2-flex",
+      "size": "1:1",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.07",
+    "pricing_status": "available",
+    "example_amount_usd": "0.07",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1440,
+      1440
+    ],
+    "file": "images/flux-2-flex.jpg",
+    "sha256": "426b268605d9cf13ef747c3f697722e833e4b47b64f392fc45cf96d1ebaac8fc"
+  },
+  {
+    "model": "viduq2-pro",
+    "kind": "image",
+    "case_date": "2026-10-17",
+    "request": {
+      "model": "viduq2-pro",
+      "size": "1:1",
+      "n": 1,
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "current_quote_date": "2026-10-20",
+    "current_quote_usd_per_image": "0.100446",
+    "pricing_status": "available",
+    "example_amount_usd": "0.100446",
+    "cost_source": "billing_log_not_final",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "file": "images/viduq2-pro.png",
+    "sha256": "730a82db3a4c2a243a7975a5be66e5df0c56ae49ffcea63c6b189a3db19257c5"
+  },
+  {
+    "model": "MiniMax-H3-Max-Turbo",
+    "kind": "video",
+    "case_date": "2026-10-20",
+    "request": {
+      "model": "MiniMax-H3-Max-Turbo",
+      "duration": 5,
+      "resolution": "480P",
+      "aspect_ratio": "16:9"
+    },
+    "mode": "text-to-video",
+    "pricing_conditions": {
+      "duration": 5,
+      "resolution": "480P"
+    },
+    "current_unit_rate": "0.025",
+    "current_unit": "second",
+    "example_amount_usd": "0.125",
+    "cost_source": "task_settled",
+    "file_duration_seconds": "5.18",
+    "case_usd_per_second": "0.02413127413127413127413127413",
+    "dimensions": [
+      832,
+      480
+    ],
+    "audio_track_present": true,
+    "file": "videos/MiniMax-H3-Max-Turbo.mp4",
+    "preview": "videos/MiniMax-H3-Max-Turbo.jpg",
+    "sha256": "280a804b4caa08a5fcbeedf6dcb37e461f851ddeb9ddfcf3ea6eea075e0526d5"
+  },
+  {
+    "model": "seedance-2-mini",
+    "kind": "video",
+    "case_date": "2026-10-20",
+    "request": {
+      "model": "seedance-2-mini",
+      "duration": 4,
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "generate_audio": false
+    },
+    "mode": "first-frame",
+    "pricing_conditions": {
+      "duration": 4,
+      "resolution": "480p",
+      "has_video_input": false,
+      "has_image_input": true,
+      "has_audio_input": false,
+      "input_image_count": 1,
+      "output_format": "mp4",
+      "generate_audio": false
+    },
+    "current_unit_rate": "3.285714",
+    "current_unit": "1m_tokens",
+    "example_amount_usd": "0.13338",
+    "cost_source": "task_settled",
+    "file_duration_seconds": "4.04",
+    "case_usd_per_second": "0.03301485148514851485148514851",
+    "dimensions": [
+      864,
+      496
+    ],
+    "audio_track_present": false,
+    "file": "videos/seedance-2-mini.mp4",
+    "preview": "videos/seedance-2-mini.jpg",
+    "sha256": "2f43f0232833ad8bad1e58a86b5ec339c18172314dc7e90e4581f53a7406f2fb"
+  },
+  {
+    "model": "seedance-2-fast",
+    "kind": "video",
+    "case_date": "2026-10-20",
+    "request": {
+      "model": "seedance-2-fast",
+      "duration": 4,
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "generate_audio": false
+    },
+    "mode": "text-to-video",
+    "pricing_conditions": {
+      "duration": 4,
+      "resolution": "480p",
+      "has_video_input": false
+    },
+    "current_unit_rate": "5.285714",
+    "current_unit": "1m_tokens",
+    "example_amount_usd": "0.214568",
+    "cost_source": "task_settled",
+    "file_duration_seconds": "4.04",
+    "case_usd_per_second": "0.05311089108910891089108910891",
+    "dimensions": [
+      864,
+      496
+    ],
+    "audio_track_present": false,
+    "file": "videos/seedance-2-fast.mp4",
+    "preview": "videos/seedance-2-fast.jpg",
+    "sha256": "271d6bf403de4bfdfc7022774b1e7041d6ba2f9c1969e4a3857206a0eea296e0"
+  },
+  {
+    "model": "kling-v3",
+    "kind": "video",
+    "case_date": "2026-10-20",
+    "request": {
+      "model": "kling-v3",
+      "duration": 5,
+      "mode": "std",
+      "aspect_ratio": "16:9",
+      "audio": false
+    },
+    "mode": "text-to-video",
+    "pricing_conditions": {
+      "duration": 5,
+      "mode": "std",
+      "audio": false,
+      "capability": "text2video",
+      "has_video_input": false
+    },
+    "current_unit_rate": "0.06",
+    "current_unit": "second",
+    "example_amount_usd": "0.3",
+    "cost_source": "task_settled",
+    "file_duration_seconds": "5.04",
+    "case_usd_per_second": "0.05952380952380952380952380952",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "audio_track_present": false,
+    "file": "videos/kling-v3.mp4",
+    "preview": "videos/kling-v3.jpg",
+    "sha256": "21ae7e8b1724055dda9e27d1c70c415e581062a6a2a57f16d2eab42e94f4cdcd"
+  },
+  {
+    "model": "MiniMax-H3",
+    "kind": "video",
+    "case_date": "2026-10-20",
+    "request": {
+      "model": "MiniMax-H3",
+      "duration": 5,
+      "resolution": "768p",
+      "aspect_ratio": "16:9"
+    },
+    "mode": "text-to-video",
+    "pricing_conditions": {
+      "duration": 5,
+      "resolution": "768p",
+      "input_image_count": 0,
+      "input_video_duration_seconds": 0
+    },
+    "current_unit_rate": "0.064",
+    "current_unit": "second",
+    "example_amount_usd": "0.32",
+    "cost_source": "task_settled",
+    "file_duration_seconds": "5.17",
+    "case_usd_per_second": "0.06189555125725338491295938104",
+    "dimensions": [
+      1344,
+      768
+    ],
+    "audio_track_present": true,
+    "file": "videos/MiniMax-H3.mp4",
+    "preview": "videos/MiniMax-H3.jpg",
+    "sha256": "aace5e7e34ff510fac835fec9dd19db3ceaf6ed830a52fdf42a28771c0d22608"
+  },
+  {
+    "model": "seedance-2",
+    "kind": "video",
+    "case_date": "2026-10-20",
+    "request": {
+      "model": "seedance-2",
+      "duration": 4,
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "generate_audio": false
+    },
+    "mode": "first-frame",
+    "pricing_conditions": {
+      "duration": 4,
+      "resolution": "480p",
+      "has_video_input": false,
+      "has_image_input": true,
+      "has_audio_input": false,
+      "input_image_count": 1,
+      "output_format": "mp4",
+      "generate_audio": false
+    },
+    "current_unit_rate": "6.571429",
+    "current_unit": "1m_tokens",
+    "example_amount_usd": "0.26676",
+    "cost_source": "task_settled",
+    "file_duration_seconds": "4.04",
+    "case_usd_per_second": "0.06602970297029702970297029703",
+    "dimensions": [
+      864,
+      496
+    ],
+    "audio_track_present": false,
+    "file": "videos/seedance-2.mp4",
+    "preview": "videos/seedance-2.jpg",
+    "sha256": "fa63ea142e299f1dadf2f4235bf0e146d09bbd1920ff46bfc7d727dda124a89c"
+  },
+  {
+    "model": "kling-3.0-turbo",
+    "kind": "video",
+    "case_date": "2026-10-20",
+    "request": {
+      "model": "kling-3.0-turbo",
+      "duration": 4,
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "watermark": false
+    },
+    "mode": "text-to-video",
+    "pricing_conditions": {
+      "duration": 4,
+      "resolution": "720p",
+      "has_image_input": false
+    },
+    "current_unit_rate": "0.08",
+    "current_unit": "second",
+    "example_amount_usd": "0.32",
+    "cost_source": "task_settled",
+    "file_duration_seconds": "4.04",
+    "case_usd_per_second": "0.07920792079207920792079207921",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "audio_track_present": true,
+    "file": "videos/kling-3.0-turbo.mp4",
+    "preview": "videos/kling-3.0-turbo.jpg",
+    "sha256": "3f07d7e26da4578ba8087c618eecf17046143d1224a8d618d77669447c506bab"
+  },
+  {
+    "model": "seedance-2-5",
+    "kind": "video",
+    "case_date": "2026-10-20",
+    "request": {
+      "model": "seedance-2-5",
+      "duration": 4,
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "generate_audio": false,
+      "output_format": "mp4"
+    },
+    "mode": "text-to-video",
+    "pricing_conditions": {
+      "duration": "-1",
+      "resolution": "480p",
+      "has_video_input": false,
+      "has_image_input": false,
+      "has_audio_input": false,
+      "input_image_count": 0,
+      "output_format": "mp4",
+      "generate_audio": false
+    },
+    "current_unit_rate": "10",
+    "current_unit": "1m_tokens",
+    "example_amount_usd": "0.3883",
+    "cost_source": "task_settled",
+    "file_duration_seconds": "4.04",
+    "case_usd_per_second": "0.09611386138613861386138613861",
+    "dimensions": [
+      854,
+      480
+    ],
+    "audio_track_present": false,
+    "file": "videos/seedance-2-5.mp4",
+    "preview": "videos/seedance-2-5.jpg",
+    "sha256": "1315d4c8f435bd546bfbc386899bd3c6b1e4643bc1e6db82bd10257265fa7e9c"
+  }
+]
