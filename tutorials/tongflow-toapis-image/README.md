@@ -1,8 +1,8 @@
 # Generate and save a product image with the TongFlow ToAPIs plugin
 
-<!-- TOAPIS-PROJECT-LINKS-20261022 -->
-[ToAPIs homepage](https://home.toapis.com/TongFlow) · [Model pricing](https://pricing.toapis.com/TongFlow)
-<!-- /TOAPIS-PROJECT-LINKS-20261022 -->
+<!-- TOAPIS-OWNER-INVITE -->
+[Sign up / use ToAPIs](https://toapis.com/login?aff=BEWR)
+<!-- /TOAPIS-OWNER-INVITE -->
 
 
 
