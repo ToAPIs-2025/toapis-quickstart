@@ -1,5 +1,10 @@
 # TongFlow ToAPIs 插件生成商品图与保存 PNG
 
+<!-- TOAPIS-PROJECT-LINKS-20261022 -->
+[ToAPIs 官网首页](https://home.toapis.com/TongFlow) · [模型价格](https://pricing.toapis.com/TongFlow)
+<!-- /TOAPIS-PROJECT-LINKS-20261022 -->
+
+
 
 <!-- TOAPIS-MODELS-20261020 -->
 ## 模型与价格更新 · 2026-10-20
